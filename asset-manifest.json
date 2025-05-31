@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/xrwvm-fullstack_developer_capstone/static/css/main.d9716fdc.css",
+    "main.js": "/xrwvm-fullstack_developer_capstone/static/js/main.32d7e2ca.js",
+    "static/media/password.png": "/xrwvm-fullstack_developer_capstone/static/media/password.adcd6e686448d893855c.png",
+    "static/media/email.png": "/xrwvm-fullstack_developer_capstone/static/media/email.66cf52f2342f17f1f491.png",
+    "static/media/person.png": "/xrwvm-fullstack_developer_capstone/static/media/person.7419e33fa2e0a06c620d.png",
+    "static/media/reviewbutton.png": "/xrwvm-fullstack_developer_capstone/static/media/reviewbutton.d450bab8bc6468d9fb28.png",
+    "static/media/negative.png": "/xrwvm-fullstack_developer_capstone/static/media/negative.e7f6df651a8b8e85f293.png",
+    "static/media/positive.png": "/xrwvm-fullstack_developer_capstone/static/media/positive.4aa3d05c6e13ba380a17.png",
+    "static/media/neutral.png": "/xrwvm-fullstack_developer_capstone/static/media/neutral.84adb1c83d738945f381.png",
+    "static/media/reviewicon.png": "/xrwvm-fullstack_developer_capstone/static/media/reviewicon.7d906bac2946fa1dc23d.png",
+    "index.html": "/xrwvm-fullstack_developer_capstone/index.html",
+    "main.d9716fdc.css.map": "/xrwvm-fullstack_developer_capstone/static/css/main.d9716fdc.css.map",
+    "main.32d7e2ca.js.map": "/xrwvm-fullstack_developer_capstone/static/js/main.32d7e2ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9716fdc.css",
+    "static/js/main.32d7e2ca.js"
+  ]
+}
