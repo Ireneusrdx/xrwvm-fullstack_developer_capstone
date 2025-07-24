@@ -30,7 +30,7 @@ jobs:
     - name: Build React application
       run: |
         cd server/frontend
-        npm run build
+        CI=false npm run build
         
     - name: Upload frontend build artifacts
       uses: actions/upload-artifact@v4
@@ -160,7 +160,7 @@ jobs:
       with:
         context: ./server/database
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/xrwvm-fullstack-developer-capstone-database:latest
+        tags: ghcr.io/ireneusrdx/xrwvm-fullstack-developer-capstone-database:latest
         
     - name: Build and push Django backend
       uses: docker/build-push-action@v5
@@ -168,4 +168,4 @@ jobs:
         context: ./server
         file: ./server/Dockerfile
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/xrwvm-fullstack-developer-capstone-backend:latest
+        tags: ghcr.io/ireneusrdx/xrwvm-fullstack-developer-capstone-backend:latest
