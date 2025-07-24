@@ -27,11 +27,19 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
+    '127.0.0.1',
     'https://irodrix2212-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
+    # Add your GitHub Pages domain when deploying
+    'ireneusrdx.github.io',
+    # Add your custom domain if you have one
+    # 'your-domain.com',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://irodrix2212-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai',
+    'https://ireneusrdx.github.io',
+    # Add your custom domain if you have one
+    # 'https://your-domain.com',
 ]
 
 REST_FRAMEWORK = {
