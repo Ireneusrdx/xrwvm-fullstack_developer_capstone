@@ -20,12 +20,12 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: server/frontend/package-lock.json
+        cache-dependency-path: server/frontend/package.json
         
     - name: Install frontend dependencies
       run: |
         cd server/frontend
-        npm ci
+        npm install
         
     - name: Build React application
       run: |
@@ -160,7 +160,7 @@ jobs:
       with:
         context: ./server/database
         push: true
-        tags: ghcr.io/${{ github.repository }}/database:latest
+        tags: ghcr.io/${{ github.repository_owner }}/xrwvm-fullstack-developer-capstone-database:latest
         
     - name: Build and push Django backend
       uses: docker/build-push-action@v5
@@ -168,4 +168,4 @@ jobs:
         context: ./server
         file: ./server/Dockerfile
         push: true
-        tags: ghcr.io/${{ github.repository }}/backend:latest
+        tags: ghcr.io/${{ github.repository_owner }}/xrwvm-fullstack-developer-capstone-backend:latest
